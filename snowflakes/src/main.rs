@@ -13,7 +13,7 @@ pub fn identify_identical(snowflakes: &HashMap<usize, LinkedList<[i32;6]>>) -> b
             }
         }
     }
-    return false
+    return false;
 }
 
 pub fn identical_right(snowflake1: &[i32;6], snowflake2: &[i32;6], start: usize) -> bool {
@@ -26,7 +26,7 @@ pub fn identical_right(snowflake1: &[i32;6], snowflake2: &[i32;6], start: usize)
             }
         }
     }
-    return true
+    return true;
 }
 
 pub fn identical_left(snowflake1: &[i32;6], snowflake2: &[i32;6], start: usize) -> bool {
@@ -62,8 +62,6 @@ pub fn code(snowflake: &[i32;6]) -> usize {
 
 #[cfg(test)]
 mod test {
-    use crate::identical_left;
-
     use super::*;
 
     #[test]
@@ -135,7 +133,6 @@ fn main() {
             println!("No two snowflakes are alike.");
         }
         println!("{:?}", snowflakes);
-
 }
 
 
