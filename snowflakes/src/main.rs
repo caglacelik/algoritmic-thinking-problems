@@ -16,6 +16,8 @@ pub fn identify_identical(snowflakes: &HashMap<usize, LinkedList<[i32;6]>>) -> b
     return false;
 }
 
+
+
 pub fn identical_right(snowflake1: &[i32;6], snowflake2: &[i32;6], start: usize) -> bool {
     let mut iter = snowflake2.iter().cycle().skip(start);
 
