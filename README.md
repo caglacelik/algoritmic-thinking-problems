@@ -1,4 +1,5 @@
 # Algorithmic Thinking Exercises in Rust 
+[Book](https://nostarch.com/download/samples/AlgorithmicThinking_Sample_ch1.pdf)
 
 ## Hashtable
 [01 - Snowflakes](https://dmoj.ca/problem/cco07p2)
