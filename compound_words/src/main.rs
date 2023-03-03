@@ -4,7 +4,7 @@ use substring::Substring;
 
 fn identify_compound_words(words: &HashSet<String>, word: &str) -> bool {
     if words.len() >= 3 {
-        for i in 1..word.len() + 1 {
+        for i in 1..word.len() + 1{
             let el = words
             println!("{}", el);
             if words.contains(word.substring(0, i)) && words.contains(word.substring(i, word.len())) {
