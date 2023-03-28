@@ -6,5 +6,7 @@
 
 [02 - Compound Words](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1332)
 
+[03 - Spelling Check](https://codeforces.com/problemset/problem/39/J)
+
 
 
